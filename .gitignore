@@ -1,3 +1,5 @@
 .DS_Store
 *.log
 node_modules/
+_preview.html
+_preview_inline.html
