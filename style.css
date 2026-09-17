@@ -1,0 +1,20 @@
+/*
+Theme Name: Healing Harmony Dental
+Theme URI: https://healingharmonydental.in/
+Author: Healing Harmony Dental Clinic — Custom Theme
+Author URI: https://healingharmonydental.in/
+Description: A calm, editorial WordPress theme for Healing Harmony Dental Clinic — a boutique, single-chair dental studio in Greater Kailash II, New Delhi. Sage-green and warm-wood material palette, a fading hero background slideshow, custom post types for Doctors, Services, Testimonials and FAQs, a full Customizer panel, and Dentist/LocalBusiness schema. Fully functional without any page builder.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.6
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: healing-harmony
+Tags: custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, block-styles, wide-blocks
+*/
+
+/*
+   The complete design system lives in /assets/css/theme.css (enqueued in inc/enqueue.php).
+   This file carries the required WordPress theme header only.
+*/
