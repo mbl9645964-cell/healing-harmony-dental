@@ -1195,3 +1195,11 @@ p:last-child { margin-bottom: 0; }
 
 /* — Softer, warmer selection — */
 ::selection{ background:var(--teal); color:#fff; }
+
+/* legacy section — numeral removed, body flows full width */
+.legacy__grid{ grid-template-columns:1fr; } /* legacy__grid single-col override */
+.legacy__body h2{ max-width:22ch; }
+
+/* consistency: legacy + why headings to editorial serif */
+.legacy__body h2{ font-family:var(--f-serif); font-weight:600; letter-spacing:-.004em; }
+.why__t{ font-family:var(--f-serif); font-weight:600; font-size:1.28rem; letter-spacing:-.003em; }
