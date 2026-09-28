@@ -177,6 +177,8 @@ def build_index():
     hero = f'''<section class="hero">
 {HERO_PATTERN}
 <div class="wrap hero__inner">
+<div class="hero__grid">
+<div class="hero__text" data-reveal>
 <span class="hero__eyebrow">Greater Kailash II &middot; New Delhi</span>
 <h1 class="hero__title">Dentistry, practised <em>quietly</em> and well.</h1>
 <p class="hero__lead">A specialist-led practice built around unhurried appointments, careful listening, and treatment that is explained before it is done.</p>
@@ -190,6 +192,11 @@ def build_index():
 <div><dt>Hours</dt><dd>{HOURS}</dd></div>
 <div><dt>Approach</dt><dd>One patient, one appointment, full attention</dd></div>
 </dl>
+</div>
+<div class="hero__media" data-reveal>
+<figure class="hero__frame"><img src="{IMG}treatment-green.jpg" alt="A treatment room at Healing Harmony Dental Clinic"><span class="hero__frame__tag">The clinic &middot; Greater Kailash II</span></figure>
+</div>
+</div>
 </div>
 </section>'''
 
