@@ -194,7 +194,7 @@ def build_index():
 </dl>
 </div>
 <div class="hero__media" data-reveal>
-<figure class="hero__frame"><img src="{IMG}treatment-green.jpg" alt="A treatment room at Healing Harmony Dental Clinic"><span class="hero__frame__tag">The clinic &middot; Greater Kailash II</span></figure>
+<figure class="hero__frame"><img src="{IMG}reception-hh.jpg" alt="Reception at Healing Harmony Dental Clinic"><span class="hero__frame__tag">Reception &middot; Greater Kailash II</span></figure>
 </div>
 </div>
 </div>
@@ -218,6 +218,15 @@ def build_index():
 <div class="split__media" data-reveal>
 <figure class="frame frame--tall"><img src="{IMG}treatment-room.jpg" alt="A treatment room at Healing Harmony Dental Clinic"></figure>
 </div>
+</div></section>'''
+
+    first_visit = f'''<section class="section bg-card"><div class="wrap">
+{section_head("Before you arrive", "What to expect on your first visit.", "No surprises, no jargon — here is exactly how a first appointment unfolds.")}
+<ol class="ledger" data-reveal style="list-style:none">
+<li><span class="ledger__no">01</span><div><h3 class="ledger__t">A conversation, before a check-up</h3><p class="ledger__d">We start by asking what brought you in and what you’re hoping for — not by reaching for a probe.</p></div></li>
+<li><span class="ledger__no">02</span><div><h3 class="ledger__t">A thorough, unhurried examination</h3><p class="ledger__d">Digital imaging where it helps, explained as we go — so you understand what we’re looking at, not just what was found.</p></div></li>
+<li><span class="ledger__no">03</span><div><h3 class="ledger__t">A written plan, not a hard sell</h3><p class="ledger__d">You leave with options, priorities and costs on paper — time to think it over is part of the process, not a delay to it.</p></div></li>
+</ol>
 </div></section>'''
 
     treatments_teaser = f'''<section class="section bg-band"><div class="wrap">
@@ -271,7 +280,7 @@ def build_index():
 <div class="ctaband__btns"><a class="btn btn--cream" href="{WA_BOOK}" target="_blank" rel="noopener">Book an Appointment</a><a class="text-link text-link--light" href="{WA_CHAT}" target="_blank" rel="noopener">Chat with us{I_ARROW}</a></div>
 </div></section>'''
 
-    body = hero + factstrip + intro + treatments_teaser + values + team_teaser + reviews + cta
+    body = hero + factstrip + intro + treatments_teaser + first_visit + values + team_teaser + reviews + cta
     return page(
         "Specialist-Led Dental Clinic in Greater Kailash II, New Delhi",
         "Healing Harmony Dental Clinic — a specialist-led, unhurried dental practice in Greater Kailash II, New Delhi.",
